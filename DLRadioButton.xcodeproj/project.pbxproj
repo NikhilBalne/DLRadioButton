@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388A687021833B020041F86E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A686F21833B020041F86E /* AppDelegate.m */; };
+		388A687321833B030041F86E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A687221833B030041F86E /* ViewController.m */; };
+		388A687621833B030041F86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A687421833B030041F86E /* Main.storyboard */; };
+		388A687821833B160041F86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388A687721833B160041F86E /* Assets.xcassets */; };
+		388A687B21833B160041F86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A687921833B160041F86E /* LaunchScreen.storyboard */; };
+		388A687E21833B160041F86E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A687D21833B160041F86E /* main.m */; };
+		388A688821833B180041F86E /* DLRadioButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A688721833B180041F86E /* DLRadioButtonTests.m */; };
+		388A689321833B190041F86E /* DLRadioButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A689221833B190041F86E /* DLRadioButtonUITests.m */; };
+		388A68A221833C9F0041F86E /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A68A121833C9F0041F86E /* DLRadioButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388A688421833B180041F86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388A686321833B010041F86E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388A686A21833B010041F86E;
+			remoteInfo = DLRadioButton;
+		};
+		388A688F21833B190041F86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388A686321833B010041F86E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388A686A21833B010041F86E;
+			remoteInfo = DLRadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388A686B21833B010041F86E /* DLRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A686E21833B020041F86E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		388A686F21833B020041F86E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		388A687121833B020041F86E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		388A687221833B030041F86E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		388A687521833B030041F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388A687721833B160041F86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388A687A21833B160041F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388A687C21833B160041F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A687D21833B160041F86E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		388A688321833B180041F86E /* DLRadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLRadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A688721833B180041F86E /* DLRadioButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLRadioButtonTests.m; sourceTree = "<group>"; };
+		388A688921833B190041F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A688E21833B190041F86E /* DLRadioButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLRadioButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A689221833B190041F86E /* DLRadioButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLRadioButtonUITests.m; sourceTree = "<group>"; };
+		388A689421833B1A0041F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A68A021833C9F0041F86E /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		388A68A121833C9F0041F86E /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388A686821833B010041F86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A688021833B180041F86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A688B21833B190041F86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388A686221833B000041F86E = {
+			isa = PBXGroup;
+			children = (
+				388A686D21833B020041F86E /* DLRadioButton */,
+				388A688621833B180041F86E /* DLRadioButtonTests */,
+				388A689121833B190041F86E /* DLRadioButtonUITests */,
+				388A686C21833B010041F86E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388A686C21833B010041F86E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388A686B21833B010041F86E /* DLRadioButton.app */,
+				388A688321833B180041F86E /* DLRadioButtonTests.xctest */,
+				388A688E21833B190041F86E /* DLRadioButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388A686D21833B020041F86E /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				388A68A021833C9F0041F86E /* DLRadioButton.h */,
+				388A68A121833C9F0041F86E /* DLRadioButton.m */,
+				388A686E21833B020041F86E /* AppDelegate.h */,
+				388A686F21833B020041F86E /* AppDelegate.m */,
+				388A687121833B020041F86E /* ViewController.h */,
+				388A687221833B030041F86E /* ViewController.m */,
+				388A687421833B030041F86E /* Main.storyboard */,
+				388A687721833B160041F86E /* Assets.xcassets */,
+				388A687921833B160041F86E /* LaunchScreen.storyboard */,
+				388A687C21833B160041F86E /* Info.plist */,
+				388A687D21833B160041F86E /* main.m */,
+			);
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		388A688621833B180041F86E /* DLRadioButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				388A688721833B180041F86E /* DLRadioButtonTests.m */,
+				388A688921833B190041F86E /* Info.plist */,
+			);
+			path = DLRadioButtonTests;
+			sourceTree = "<group>";
+		};
+		388A689121833B190041F86E /* DLRadioButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388A689221833B190041F86E /* DLRadioButtonUITests.m */,
+				388A689421833B1A0041F86E /* Info.plist */,
+			);
+			path = DLRadioButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388A686A21833B010041F86E /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A689721833B1A0041F86E /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				388A686721833B010041F86E /* Sources */,
+				388A686821833B010041F86E /* Frameworks */,
+				388A686921833B010041F86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 388A686B21833B010041F86E /* DLRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388A688221833B180041F86E /* DLRadioButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A689A21833B1A0041F86E /* Build configuration list for PBXNativeTarget "DLRadioButtonTests" */;
+			buildPhases = (
+				388A687F21833B180041F86E /* Sources */,
+				388A688021833B180041F86E /* Frameworks */,
+				388A688121833B180041F86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388A688521833B180041F86E /* PBXTargetDependency */,
+			);
+			name = DLRadioButtonTests;
+			productName = DLRadioButtonTests;
+			productReference = 388A688321833B180041F86E /* DLRadioButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388A688D21833B190041F86E /* DLRadioButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A689D21833B1A0041F86E /* Build configuration list for PBXNativeTarget "DLRadioButtonUITests" */;
+			buildPhases = (
+				388A688A21833B190041F86E /* Sources */,
+				388A688B21833B190041F86E /* Frameworks */,
+				388A688C21833B190041F86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388A689021833B190041F86E /* PBXTargetDependency */,
+			);
+			name = DLRadioButtonUITests;
+			productName = DLRadioButtonUITests;
+			productReference = 388A688E21833B190041F86E /* DLRadioButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388A686321833B010041F86E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ecoihub;
+				TargetAttributes = {
+					388A686A21833B010041F86E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					388A688221833B180041F86E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 388A686A21833B010041F86E;
+					};
+					388A688D21833B190041F86E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 388A686A21833B010041F86E;
+					};
+				};
+			};
+			buildConfigurationList = 388A686621833B010041F86E /* Build configuration list for PBXProject "DLRadioButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388A686221833B000041F86E;
+			productRefGroup = 388A686C21833B010041F86E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388A686A21833B010041F86E /* DLRadioButton */,
+				388A688221833B180041F86E /* DLRadioButtonTests */,
+				388A688D21833B190041F86E /* DLRadioButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388A686921833B010041F86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A687B21833B160041F86E /* LaunchScreen.storyboard in Resources */,
+				388A687821833B160041F86E /* Assets.xcassets in Resources */,
+				388A687621833B030041F86E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A688121833B180041F86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A688C21833B190041F86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388A686721833B010041F86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A687321833B030041F86E /* ViewController.m in Sources */,
+				388A68A221833C9F0041F86E /* DLRadioButton.m in Sources */,
+				388A687E21833B160041F86E /* main.m in Sources */,
+				388A687021833B020041F86E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A687F21833B180041F86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A688821833B180041F86E /* DLRadioButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A688A21833B190041F86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A689321833B190041F86E /* DLRadioButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388A688521833B180041F86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388A686A21833B010041F86E /* DLRadioButton */;
+			targetProxy = 388A688421833B180041F86E /* PBXContainerItemProxy */;
+		};
+		388A689021833B190041F86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388A686A21833B010041F86E /* DLRadioButton */;
+			targetProxy = 388A688F21833B190041F86E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388A687421833B030041F86E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388A687521833B030041F86E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		388A687921833B160041F86E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388A687A21833B160041F86E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388A689521833B1A0041F86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		388A689621833B1A0041F86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388A689821833B1A0041F86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7UBK4S654;
+				INFOPLIST_FILE = DLRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.DLRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388A689921833B1A0041F86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7UBK4S654;
+				INFOPLIST_FILE = DLRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.DLRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		388A689B21833B1A0041F86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7UBK4S654;
+				INFOPLIST_FILE = DLRadioButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.DLRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLRadioButton.app/DLRadioButton";
+			};
+			name = Debug;
+		};
+		388A689C21833B1A0041F86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7UBK4S654;
+				INFOPLIST_FILE = DLRadioButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.DLRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLRadioButton.app/DLRadioButton";
+			};
+			name = Release;
+		};
+		388A689E21833B1A0041F86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7UBK4S654;
+				INFOPLIST_FILE = DLRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.DLRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DLRadioButton;
+			};
+			name = Debug;
+		};
+		388A689F21833B1A0041F86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7UBK4S654;
+				INFOPLIST_FILE = DLRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.DLRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DLRadioButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388A686621833B010041F86E /* Build configuration list for PBXProject "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A689521833B1A0041F86E /* Debug */,
+				388A689621833B1A0041F86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388A689721833B1A0041F86E /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A689821833B1A0041F86E /* Debug */,
+				388A689921833B1A0041F86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388A689A21833B1A0041F86E /* Build configuration list for PBXNativeTarget "DLRadioButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A689B21833B1A0041F86E /* Debug */,
+				388A689C21833B1A0041F86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388A689D21833B1A0041F86E /* Build configuration list for PBXNativeTarget "DLRadioButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A689E21833B1A0041F86E /* Debug */,
+				388A689F21833B1A0041F86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388A686321833B010041F86E /* Project object */;
+}

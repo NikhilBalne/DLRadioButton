@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RIM-wi-zMf">
+                                <rect key="frame" x="67" y="213.5" width="240" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDv-R4-nyj" customClass="DLRadioButton">
+                                        <rect key="frame" x="8" y="78" width="224" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="85A-Hn-pVY"/>
+                                        </constraints>
+                                        <state key="normal" title="Female">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="femaleTpd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMf-Gg-INH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L66-by-3z6" customClass="DLRadioButton">
+                                        <rect key="frame" x="8" y="8" width="224" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ug5-Vh-OQo"/>
+                                        </constraints>
+                                        <state key="normal" title="Male">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="maleTpd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Rz-n1-Irn"/>
+                                            <outletCollection property="otherButtons" destination="NDv-R4-nyj" id="mvO-Rc-q1r"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="NDv-R4-nyj" firstAttribute="leading" secondItem="RIM-wi-zMf" secondAttribute="leading" constant="8" id="192-3M-0VP"/>
+                                    <constraint firstItem="L66-by-3z6" firstAttribute="leading" secondItem="RIM-wi-zMf" secondAttribute="leading" constant="8" id="ICm-Dh-c4j"/>
+                                    <constraint firstItem="L66-by-3z6" firstAttribute="top" secondItem="RIM-wi-zMf" secondAttribute="top" constant="8" id="IUd-B4-OB4"/>
+                                    <constraint firstAttribute="height" constant="240" id="YcJ-KT-pEa"/>
+                                    <constraint firstAttribute="trailing" secondItem="NDv-R4-nyj" secondAttribute="trailing" constant="8" id="lkp-SZ-MDJ"/>
+                                    <constraint firstAttribute="width" constant="240" id="pKm-V9-WOw"/>
+                                    <constraint firstItem="NDv-R4-nyj" firstAttribute="top" secondItem="L66-by-3z6" secondAttribute="bottom" constant="30" id="zIU-Or-EgI"/>
+                                    <constraint firstAttribute="trailing" secondItem="L66-by-3z6" secondAttribute="trailing" constant="8" id="zPa-cv-hwM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RIM-wi-zMf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3I7-9h-yHz"/>
+                            <constraint firstItem="RIM-wi-zMf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n1Z-PK-5td"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="femaleBtn" destination="NDv-R4-nyj" id="f6Q-jG-jFA"/>
+                        <outlet property="maleBtn" destination="L66-by-3z6" id="wDp-g6-CkR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
